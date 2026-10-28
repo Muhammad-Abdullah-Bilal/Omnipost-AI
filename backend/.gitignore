@@ -1,0 +1,29 @@
+# Environment variables (SECURITY: Never commit API keys!)
+.env
+.env.local
+.env.*.local
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python-generated files & caches
+__pycache__/
+*.py[oc]
+*.pyc
+*.pyd
+.pytest_cache/
+.coverage
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+posts_local.db
+
+# Distribution / packaging
+build/
+dist/
+wheels/
+*.egg-info/
